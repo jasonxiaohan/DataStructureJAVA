@@ -64,6 +64,14 @@ public class Array<E> {
         return data[index];
     }
 
+    public E getFirst() {
+        return this.get(0);
+    }
+
+    public E getLast() {
+        return get(size - 1);
+    }
+
     // 修改index位置的索引值为e
     public void set(int index, E e) {
         if (index < 0 || index >= size) {

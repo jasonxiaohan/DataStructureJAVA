@@ -1,3 +1,5 @@
+package Array;
+
 import Array.Array;
 
 public class Main {
