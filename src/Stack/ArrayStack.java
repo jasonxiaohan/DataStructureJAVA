@@ -2,6 +2,7 @@ package Stack;
 
 import Array.Array;
 
+// 数组栈
 public class ArrayStack<E> implements Stack<E>{
     Array<E> array;
     public ArrayStack(int capacity) {
