@@ -1,7 +1,5 @@
 package LinkedList;
 
-import org.omg.CORBA.NO_IMPLEMENT;
-
 public class LinkedList<E> {
     private class Node {
         public E e;
